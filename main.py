@@ -2,6 +2,8 @@
 
 Writes the ENTRY string verbatim to /output/entry.txt as UTF-8, with no
 trailing newline, creating /output if it does not exist.
+The submission is the file named entry.txt, and its whole content is the
+single line in ENTRY: no header, metadata, or other lines.
 Deterministic: no randomness, clock, or network input, so every run
 produces the same bytes.
 """
