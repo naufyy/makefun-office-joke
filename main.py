@@ -6,7 +6,7 @@ Deterministic: same bytes on every run.
 
 from pathlib import Path
 
-ENTRY = 'The office plant died, so HR sent a condolence email and a replacement plant on a shorter probation.'
+ENTRY = "The office plant died, so HR sent a condolence email and a replacement plant on a shorter probation."
 
 
 def main() -> None:
