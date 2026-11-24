@@ -1,7 +1,9 @@
-"""One-line entry for make.fun (office joke).
+"""One-line entry for the make.fun short-text contest (office joke category).
 
-Writes the winning entry to /output/entry.txt.
-Deterministic: same bytes on every run.
+Writes the ENTRY string verbatim to /output/entry.txt as UTF-8, with no
+trailing newline, creating /output if it does not exist.
+Deterministic: no randomness, clock, or network input, so every run
+produces the same bytes.
 """
 
 from pathlib import Path
